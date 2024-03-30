@@ -20,6 +20,8 @@ function Charts({ sortTransactions }) {
       amount: transaction.amount,
     }));
 
+
+
   const lineConfig = {
     data: lineChartData,
     height: 400,
@@ -42,7 +44,7 @@ function Charts({ sortTransactions }) {
     <div className=" flex justify-between flex-wrap bg-slate-100 shadow-lg rounded-md m-5">
       <div className="m-5 bg-white shadow-lg rounded-xl">
         <h2 className="m-5">Your Analytics</h2>
-        <Line {...lineConfig}   />
+        <Line {...lineConfig} />
       </div>
       <div className="m-5 bg-white shadow-lg rounded-xl">
         <h2 className="m-5">Your Spending</h2>
